@@ -57,5 +57,10 @@ func createGraph(n int) graph {
 }
 
 func solve(g graph) string {
+    var recurse func(graph) bool
+    recurse = func(g graph) bool {
+        
+    }
+    for i := 0; i < g.n; i++ {
     return fmt.Sprintf("%v", g)
 }
